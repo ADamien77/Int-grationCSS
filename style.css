@@ -268,16 +268,16 @@ header .CTAs a:nth-child(2) {
 
 .unlock div:nth-child(1) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* padding: 0 144px; */
 }
 
 .unlock div:nth-child(1) div:nth-child(1) {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    max-width: 660px;
 }
 
 .unlock div:nth-child(1) div:nth-child(1) h2 {
@@ -318,6 +318,279 @@ header .CTAs a:nth-child(2) {
     flex-direction: column;
     gap: 8px;
     width: 100%;
+}
+
+.archievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 75px 144px;
+    background-color: #F5F7FA;
+}
+
+.archievements-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.archievements h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #4d4d4d;
+}
+
+span {
+    color: #4CAF4F;
+}
+
+.archievements p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #18191F;
+}
+
+.archievements-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+.archievements-cards div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 255px;
+}
+
+.archievements-cards div div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.archievements-cards div img {
+    width: 48px;
+    height: 48px;
+}
+
+.archievements-cards div h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #4d4d4d;
+}
+
+.archievements-cards div p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
+
+.calender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 40px 144px;
+    background-color: #F5F7FA;
+}
+
+.calender-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 661px;
+    gap: 32px;
+}
+
+.calender-text div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.calender-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #4d4d4d;
+}
+
+.calender-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #717171;
+}
+
+.calender-text a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+}
+
+.customers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px 144px;
+    gap : 78px;
+}
+
+.customers-info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.customers-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.customers-text p {
+    max-width: 748px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;    
+    font-size: 16px;
+    color: #717171;
+}
+
+.customers-name {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customers-name h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4CAF4F;
+}
+
+.customers-name p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #89939E;
+}
+
+.customers-icons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.customers-icon {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.customers-icons a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4CAF4F;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.community-update {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+    padding: 70px 0px;
+    background: var(--Neutral-Silver, #F5F7FA);
+}
+
+.community-update-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.community-update-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #4d4d4d;
+}
+
+.community-update-text p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #717171;
+}
+
+.community-update-cards {
+    display: flex;
+    flex-direction: row;
+    padding: 0 144px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: -96px;
+    align-items: center;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 32px 0px;
+    gap: 32px;
+}
+
+.demo h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #263238;
+    text-align: center;
+}
+
+.demo a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 footer {
